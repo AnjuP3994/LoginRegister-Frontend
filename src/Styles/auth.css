@@ -1,0 +1,33 @@
+.bg{
+    background-image: url("https://t4.ftcdn.net/jpg/05/42/73/17/360_F_542731787_npIDENXs9NMkl1mtyHKj8De2WBL2vnFW.jpg");
+    height: 100%; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+  .card1{
+    background-color: rgba(0, 195, 254, 0.114);
+    width: 15.1cm;
+  }
+  .btnregis, .btnlogin {
+    border: none;
+    background-color: rgba(0, 110, 169, 0.551);
+    border-radius: 8px;
+    padding: 7px 25px;
+    font-size: 16px;
+    color: rgb(228, 247, 255);
+    font-weight: 700;
+    box-shadow: 0 3px #999;
+  }
+  .btnregis:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(3px);
+  }
